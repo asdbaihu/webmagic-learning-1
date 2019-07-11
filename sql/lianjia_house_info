@@ -1,0 +1,10 @@
+CREATE TABLE `lianjia_house_info` (
+  `id_` int(50) NOT NULL AUTO_INCREMENT,
+  `sub_title` varchar(100) NOT NULL DEFAULT '' COMMENT '标题',
+  `total_price` varchar(10) NOT NULL DEFAULT '',
+  `mi_price` varchar(20) NOT NULL COMMENT '单价',
+  `address_` varchar(255) NOT NULL DEFAULT '',
+  `discription_` varchar(255) NOT NULL,
+  `url` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id_`)
+) ENGINE=InnoDB AUTO_INCREMENT=1110 DEFAULT CHARSET=utf8;
